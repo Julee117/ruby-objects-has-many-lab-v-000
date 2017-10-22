@@ -6,6 +6,6 @@ class Song
   end
 
   def artist_name
-    return nil unless artist.name
+    artist.name
   end
 end
